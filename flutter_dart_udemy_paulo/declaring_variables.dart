@@ -3,7 +3,7 @@ printHello(String who) {
 }
 
 main(List<String> arguments) {
-  var country = 'Mozambique'; // string
+  var country = 'Mozambique';
   String name;
   name = "Some Name";
 
@@ -15,4 +15,12 @@ main(List<String> arguments) {
   print(country);
   printHello('You');
   printHello(name);
+  // numbers
+  int age = 13;
+  double number = 25.5;
+  print(age.toString() + ' ' + number.toString());
+
+  // Boolean
+  bool isTrue = 5 > 4;
+  print(isTrue);
 }
