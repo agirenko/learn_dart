@@ -3,5 +3,5 @@ import 'lib/utils.dart';
 
 main() {
   print(TesterLibs.getName());
-  print(adder(5, 19));
+  print(addNumbers(5, 19));
 }
