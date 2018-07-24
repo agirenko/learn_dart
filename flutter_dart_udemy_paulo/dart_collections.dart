@@ -13,7 +13,13 @@ main() {
   //maps
   var winners = {'first': 'Bill', 'second': 'George', 'third': 'Bond'};
   print(winners);
-
+  winners.forEach(
+      (k, v) => print('$k : $v')
+  );
+  var keys = winners.keys;
+  print(keys);
+  var values = winners.values;
+  print(values);
   List<dynamic> a = [1, 2, 3, "b"];
   var c = {'e': 'b', 'c': 'd', 1: 'f'};
   var list = [10, 2, 13, 24, 100];
