@@ -26,7 +26,6 @@ class Paulo extends Person {
   }
 }
 
-
 main() {
   var bonni = new Bonni();
   bonni.name = 'Bonni';
