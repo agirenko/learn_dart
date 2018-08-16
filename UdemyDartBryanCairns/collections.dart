@@ -29,8 +29,7 @@ main(List<String> arguments) {
   numbers.add(1);
   numbers.add(2);
   numbers.add(3);
- // numbers.add('cats'); - ERROR !
-
+  // numbers.add('cats'); - ERROR !
 
   // Sets
   Set<int> numbersSet = new Set<int>();
@@ -49,4 +48,20 @@ main(List<String> arguments) {
   items.removeLast();
   print(items);
 
+  //Map = key value pair
+
+  //Map people = {'dad' : 'Bryan', 'son' : 'Chris', 'daughter' : 'Heather'};
+
+  Map<String, String> people = new Map<String, String>();
+  people.putIfAbsent('dad', () => 'Bryan');
+  people.putIfAbsent('son', () => 'Chris');
+  people.putIfAbsent('daughter', () => 'Heather');
+  people.putIfAbsent('grandSon', () => 'Victor');
+  print(people);
+  print('Keys are ${people.keys}');
+  print('Values are ${people.values}');
+  print('Dad is ${people['dad']}');
+  print('Son is ${people['son']}');
+  print('GrandSon is ${people['grandSon']}');
+  print(people['dad']);
 }
