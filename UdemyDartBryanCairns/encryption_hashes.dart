@@ -4,7 +4,6 @@ import 'package:pointycastle/pointycastle.dart';
 
 main(List<String> arguments) {
 
-
   Digest digest = new Digest("SHA-256");
 
   String value = 'Hello World';
