@@ -1,2 +1,2 @@
 # learn_dart
-Dart learning examples
+Dart and Flutter learning examples
