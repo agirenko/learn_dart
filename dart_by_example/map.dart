@@ -3,9 +3,11 @@ main() {
   var colors = new Map();
   colors['blue'] = false;
   colors['red'] = true;
+  colors[1] = 'abc';
   print(colors);
 
   // curly bracket literals can also be used:
+  //var shapes = {'square': false, 'triangle': true, circle: 'z'}; // "Getter not found:" 'circle'. Dart Map is not JS object
   var shapes = {'square': false, 'triangle': true};
   print(shapes);
 
